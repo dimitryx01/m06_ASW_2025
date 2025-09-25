@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio 2</title>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+
+    <h1>Ejercicio 1</h1>
+
+    <a onclick="variables()">>>>>Pulsame</a>
+   
+
+
+    <h2>¿Qué es hoisting y cómo afecta a var?</h2>
+    <p>Es como la elevacion de la variable antes de su declaracion, 
+        es decir que desde el inicio de la ejecucion la variable existe desde el principio.
+        Si se hace un llamado antes de la declaracion, entonces la variable saldra como undefined y solo 
+        aplica para las variable VAR ya que para let y const pasa algo parecido pero con la diferencia de que 
+        cuando se llama saldra error.
+        ya si se llama la variable VAR despues de la declaracion entonces saldra su valor normal.
+
+    </p>
+
+   <h2> ¿Qué significa que const no permite reasignación pero sí permite mutar
+objetos/arrays? (demuéstralo con código).</h2>
+<p>
+    significa que no puedo cambiar el contenido de por ejemplo un numero, por que seria una reasignacion de memoria, y eso no lo permite hacer la variable const
+</p>
+<p>
+    Pero la mutacion si se puede por que en un array el objeto siempre mantiene la misma referencia de memoria, la cual permite modificar el contenido.
+</p>
+</body>
+</html>
