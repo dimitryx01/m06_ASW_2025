@@ -23,6 +23,7 @@ function juego() {
         
         if (i === 7) {
             console.log('Has perdido. El número era ' + numero);
+            window.alert('Has perdido. El número era ' + numero);
         }
     }
 }
