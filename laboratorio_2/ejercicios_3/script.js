@@ -22,9 +22,7 @@ function calcularEdadYDia() {
     }
 
    
-    const diasSemana = ["domingo", "lunes", "martes", "miércoles", "jueves", "viernes", "sábado"];
- 
     alert(`Naciste el ${fechaNacimientoStr}, tienes ${edad} años `);
 }
 
-calcularEdadYDia();
+calcularEdadYDia();//no se por que no me funciona desde el enlace de pulsar y me toco llamarla asi
