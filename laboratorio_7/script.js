@@ -35,9 +35,9 @@ console.log("Array de cookies:", cookiesArray);
 console.log("Resultado: La línea de JavaScript para convertir la cadena completa de document.cookie en un array es: document.cookie.split(';')");
 
 
-// ========================================
+// ========================================++
 // Ejercicio 2: Formulario
-// ========================================
+// ========================================+++
 console.log("\nEjercicio 2:");
 console.log("Voy a capturar los valores del formulario y mostrarlos");
 
@@ -176,7 +176,7 @@ window.addEventListener('load', () => {
     const estadoAceptacion = sessionStorage.getItem('acepto_condiciones');
     
     // Si el usuario había aceptado antes, marco el radio button
-    if (estadoAceptacion === 'true') {
+    if (estadoAceptacion == 'true') {
         aceptoCondicionesRadio.checked = true;
     } else {
         // Si no había aceptado o no hay valor guardado, dejo el radio desmarcado
