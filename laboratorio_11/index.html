@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Laboratorio 10</title>
+</head>
+<body>
+
+    <h1>Ejercicio 1: Orden de Eventos</h1>
+    <button id="test-click">Haz doble clic aquí</button>
+
+    <h1>Ejercicio 2: Event Bubbling</h1>
+    <section id="padre">
+        Padre (section)
+        <div id="hijo">
+            Hijo (div)
+            <button id="boton-bubbling">Botón</button>
+        </div>
+    </section>
+
+    <h1>Ejercicio 3: stopPropagation</h1>
+    <section id="padre2">
+        Padre (section)
+        <div id="hijo2">
+            Hijo (div)
+            <button id="boton-stop">Botón con stopPropagation</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
